@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: red;
+   /* border-width: 5px;
+    border-color: black;
+    border-style: solid;*/
+    border:2px solid black;
+    text-align: center;
+}
+#diving{
+    height: 100px;
+    width:100px;
+    background-color: greenyellow;
+    border:2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding:2px 5px 8px 6px;
+    margin :10px 10px 20px 25px;
+    
+
+}

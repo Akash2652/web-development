@@ -1,0 +1,38 @@
+#box{
+    background-color: aqua;
+color:rgb(255, 0, 0)}
+.heading{
+    text-align: right;
+    text-decoration: blueviolet dotted underline;
+    color: rgb(255, 0, 123);
+    background-color: rgb(255, 255, 255);
+}
+button{
+    background-color: rgb(86, 52, 69);
+    color: rgb(255, 255, 255);
+    text-decoration: none   ;
+
+
+
+    h4{
+        font-weight: lighter;
+        font-size: medium;
+        font-family: 'Courier New', Courier, monospace; 
+    }
+    h5{
+        font-weight: 600;
+        font-size: small;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+#one{
+
+    text-transform:uppercase;
+    text-decoration:dashed underline;
+    
+}
+#two{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
