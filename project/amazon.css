@@ -105,6 +105,16 @@ h2 {
     display: block;
 }
 
+/* Background image version of logo */
+.logo {
+    background-image: url("amazon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    margin-top: 10px;
+}
+
 .nav-address {
     gap: 5px;
     font-size: 0.85rem;
@@ -204,14 +214,14 @@ h2 {
 }
 
 /* Nav Hover Borders */
-.nav-border {
+.nav-border, .border {
     border: 1px solid transparent;
     padding: 5px;
     border-radius: 2px;
     transition: none; /* Instant border display like Amazon */
 }
 
-.nav-border:hover {
+.nav-border:hover, .border:hover {
     border: 1px solid var(--white);
 }
 
