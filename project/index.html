@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon | Premium E-commerce</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container container flex">
+            <!-- Logo -->
+            <a href="#" class="nav-logo nav-border">
+                <img src="amazon.png" alt="amazon" class="logo-img">
+            </a>
+
+            <!-- Delivery Address -->
+            <div class="nav-address flex nav-border">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="address-text">
+                    <p class="add-first">Deliver to</p>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="nav-search flex">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Electronics</option>
+                    <option>Fashion</option>
+                    <option>Home</option>
+                </select>
+                <input type="text" placeholder="Search for products, brands and more" class="search-input">
+                <button class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <!-- Right Side Nav -->
+            <div class="nav-links flex">
+                <!-- Country Selector -->
+                <div class="nav-country flex nav-border">
+                    <i class="fa-solid fa-globe"></i>
+                    <select class="country-select">
+                        <option value="IN">IND</option>
+                        <option value="US">USA</option>
+                        <!-- ... (same options) ... -->
+                        <option value="AU">AUS</option>
+                        <option value="DE">DEU</option>
+                        <option value="FR">FRA</option>
+                        <option value="JP">JPN</option>
+                        <option value="RU">RUS</option>
+                        <option value="CN">CHN</option>
+                        <option value="BR">BRA</option>
+                        <option value="ZA">ZAF</option>
+                        <option value="IT">ITA</option>
+                        <option value="ES">ESP</option>
+                        <option value="MX">MEX</option>
+                        <option value="KR">KOR</option>
+                        <option value="NL">NLD</option>
+                        <option value="CH">CHE</option>
+                        <option value="SE">SWE</option>
+                        <option value="NO">NOR</option>
+                        <option value="FI">FIN</option>
+                        <option value="DK">DNK</option>
+                        <option value="PL">POL</option>
+                        <option value="AR">ARG</option>
+                        <option value="CL">CHL</option>
+                        <option value="CO">COL</option>
+                        <option value="PE">PER</option>
+                        <option value="EG">EGY</option>
+                        <option value="NG">NGA</option>
+                        <option value="KE">KEN</option>
+                        <option value="TR">TUR</option>
+                        <option value="SA">SAU</option>
+                        <option value="AE">ARE</option>
+                        <option value="SG">SGP</option>
+                        <option value="MY">MYS</option>
+                        <option value="TH">THA</option>
+                        <option value="NZ">NZL</option>
+                        <!-- More countries can be added here or via a data-driven approach -->
+                        <option value="OTHER">Other...</option>
+                    </select>
+                </div>
+
+                <div class="nav-link-item nav-border">
+                    <p class="link-first">Hello, Sign In</p>
+                    <p class="link-second">Account & Lists</p>
+                </div>
+
+                <div class="nav-link-item nav-border">
+                    <p class="link-first">Returns</p>
+                    <p class="link-second">& Orders</p>
+                </div>
+
+                <a href="#" class="nav-cart flex nav-border">
+                    <div class="cart-icon-wrapper">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <p class="cart-text">Cart</p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=2070" alt="Special Offer Banner" class="hero-img">
+                <div class="hero-overlay">
+                    <div class="hero-content container">
+                        <h1>Unlock Premium Living</h1>
+                        <p>Explore the latest in tech, fashion, and home essentials.</p>
+                        <a href="#" class="btn-primary">Shop Deals Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Sections Container -->
+        <div class="product-wrapper container">
+            
+            <!-- Electronics Section -->
+            <section class="product-section">
+                <h2>Top Picks in Electronics</h2>
+                <div class="product-grid grid">
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=500" alt="Laptop" class="card-img">
+                        </div>
+                        <p class="product-title">Premium Ultrabook - Intel i7, 16GB RAM, 512GB SSD</p>
+                        <div class="rating">★★★★☆ (1,240)</div>
+                        <p class="price">$1,299.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80&w=500" alt="Monitor" class="card-img">
+                        </div>
+                        <p class="product-title">4K UHD Curved Monitor - 32-inch Slim Display</p>
+                        <div class="rating">★★★★★ (850)</div>
+                        <p class="price">$449.50</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=500" alt="Headphones" class="card-img">
+                        </div>
+                        <p class="product-title">Noise Cancelling Wireless Headphones - Carbon Black</p>
+                        <div class="rating">★★★★☆ (2,100)</div>
+                        <p class="price">$299.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=500" alt="Phone" class="card-img">
+                        </div>
+                        <p class="product-title">Flagship 5G Smartphone - 128GB, Triple Camera</p>
+                        <div class="rating">★★★★★ (450)</div>
+                        <p class="price">$899.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Fashion Section -->
+            <section class="product-section">
+                <h2>Style That Inspires</h2>
+                <div class="product-grid grid">
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=500" alt="Shoes" class="card-img">
+                        </div>
+                        <p class="product-title">Men's Performance Running Shoes - Lightweight</p>
+                        <div class="rating">★★★★☆ (1,500)</div>
+                        <p class="price">$120.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=500" alt="Watch" class="card-img">
+                        </div>
+                        <p class="product-title">Classic Minimalist Watch - Rose Gold</p>
+                        <div class="rating">★★★★★ (320)</div>
+                        <p class="price">$185.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=500" alt="Shirt" class="card-img">
+                        </div>
+                        <p class="product-title">Premium Cotton Graphic Tee - Soft White</p>
+                        <div class="rating">★★★★☆ (120)</div>
+                        <p class="price">$35.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&q=80&w=500" alt="Jacket" class="card-img">
+                        </div>
+                        <p class="product-title">Leather Moto Jacket - Handcrafted Quality</p>
+                        <div class="rating">★★★★★ (95)</div>
+                        <p class="price">$250.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Home & Kitchen Section -->
+            <section class="product-section">
+                <h2>Upgrade Your Home</h2>
+                <div class="product-grid grid">
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=500" alt="Kitchen" class="card-img">
+                        </div>
+                        <p class="product-title">Professional Espresso Machine - 15 Bar Pressure</p>
+                        <div class="rating">★★★★★ (410)</div>
+                        <p class="price">$599.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=500" alt="Lamp" class="card-img">
+                        </div>
+                        <p class="product-title">Modern LED Desk Lamp - Adjustable Brightness</p>
+                        <div class="rating">★★★★☆ (560)</div>
+                        <p class="price">$45.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&q=80&w=500" alt="Blender" class="card-img">
+                        </div>
+                        <p class="product-title">High-Speed Smoothie Blender - 1000W Power</p>
+                        <div class="rating">★★★★★ (1,150)</div>
+                        <p class="price">$89.99</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1620912189865-1e8a33da4c5e?auto=format&fit=crop&q=80&w=500" alt="Toaster" class="card-img">
+                        </div>
+                        <p class="product-title">Retro 4-Slice Toaster - Stainless Steel</p>
+                        <div class="rating">★★★★☆ (280)</div>
+                        <p class="price">$65.00</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <a href="#" class="back-to-top">Back to top</a>
+        </div>
+        <div class="footer-content container grid">
+            <div class="footer-col">
+                <h3>Get to Know Us</h3>
+                <ul>
+                    <li><a href="#">About amazon</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect with Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Make Money with Us</h3>
+                <ul>
+                    <li><a href="#">Sell on amazon</a></li>
+                    <li><a href="#">Supply to amazon</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Returns Centre</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 amazon, Inc. or its affiliates</p>
+        </div>
+    </footer>
+
+</body>
+</html>

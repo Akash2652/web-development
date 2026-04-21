@@ -1,0 +1,17 @@
+ .annimation{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 255, 191);
+    animation: spinannimation 1s linear 0s infinite;
+    border-radius: 50%;
+   border: 20px solid black;
+   border-top-color: blue;
+ }
+ @keyframes spinannimation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
