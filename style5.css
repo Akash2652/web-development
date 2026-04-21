@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+header{
+#navbar{
+    background-color: #0f1111;
+    height: 60px;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#account{
+    margin-left: 20px;
+}
+#mycart{
+    margin-left: 20px;
+}
+#contactus{
+    margin-left: 20px;
+}
+#search{
+    margin-left: 20px;
+}
+#searchbutton{
+    margin-left: 20px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+button{
+    color:#f08804;
+    background-color: #f08804;
+}
+}
+.division{
+    background-color: aqua;
+    height: 300px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #0f1111;
+    margin-bottom: 20px;
+}
