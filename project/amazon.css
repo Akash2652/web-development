@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+@charset "UTF-8";
 
 :root {
     --primary-color: #131921;
@@ -94,6 +94,8 @@ h2 {
 }
 
 .nav-container {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
@@ -138,6 +140,8 @@ h2 {
 
 /* Search Bar */
 .nav-search {
+    display: flex;
+    align-items: center;
     flex: 1;
     height: 40px;
     background-color: var(--white);
@@ -183,10 +187,14 @@ h2 {
 
 /* Nav Links */
 .nav-links {
+    display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .nav-country {
+    display: flex;
+    align-items: center;
     gap: 5px;
     cursor: pointer;
 }
@@ -226,6 +234,8 @@ h2 {
 }
 
 .nav-cart {
+    display: flex;
+    align-items: center;
     gap: 5px;
     position: relative;
 }
